@@ -1,0 +1,18 @@
+.content{
+    min-height: calc(100vh - 14rem);
+}
+
+.content::-webkit-scrollbar {
+    display: none;
+}
+
+.headMenu{
+
+}
+
+.loading {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(2);
+}

@@ -1,0 +1,46 @@
+.dailyRecommendationTitle {
+    width: 108rem;
+    margin: 2rem auto 0;
+    border-bottom: 2px solid #c10d0c;
+    display: flex;
+    align-items: center;
+}
+
+.recommendationType {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.recommendationType li {
+    padding: 0 2rem;
+    border-left: 1px solid #333333;
+    cursor: pointer;
+}
+
+.recommendationType li:first-child {
+    border-left: 1px solid transparent;
+}
+
+.recommendationType li:hover {
+    text-decoration: underline;
+}
+
+.dailyRecommendationTitle h1 {
+    margin-right: 10rem;
+    font-weight: 500;
+}
+
+.dailyRecommendationContent {
+    width: 108rem;
+    margin: 10px auto 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows:repeat(1, 1fr);
+    gap: 1rem;
+}
+
+.songSheet {
+    width: calc((108rem - 1rem * 5) / 5);
+}

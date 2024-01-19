@@ -1,0 +1,59 @@
+.topList {
+    width: 108rem;
+    height: 79rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sider {
+    width: 20rem;
+    height: 100%;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.sider p {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 1rem;
+    color: #de2f27;
+}
+
+.item {
+    cursor: pointer;
+}
+
+.item:hover {
+    background-color: #de2f27;
+}
+
+.content {
+    width: 20rem;
+}
+
+.sider::-webkit-scrollbar {
+    display: none;
+}
+
+.main {
+    width: calc(108rem - 20rem);
+    height: 100%;
+    overflow-y: scroll;
+    border-left: 2px solid #fff;
+}
+
+.main::-webkit-scrollbar {
+    display: none;
+}
+
+.head {
+
+}
+
+.img {
+    cursor: pointer;
+}

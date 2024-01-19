@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  --theme-color: #28e4f7;
+  --theme-color-bg: #cccccc;
+  width: 100%;
+  font-size: 10px;
+}
+/*# sourceMappingURL=main.css.map */

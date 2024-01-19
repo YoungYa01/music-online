@@ -1,0 +1,20 @@
+.content {
+  width: 20rem;
+  height: 20rem;
+  margin: auto;
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.content h1 {
+  float: right;
+  position: absolute;
+}
+.content .son {
+  width: 10rem;
+  height: 10rem;
+  margin: auto;
+}
+/*# sourceMappingURL=index.module.css.map */
